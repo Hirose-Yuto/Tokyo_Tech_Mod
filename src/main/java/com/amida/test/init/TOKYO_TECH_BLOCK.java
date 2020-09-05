@@ -1,6 +1,7 @@
 package com.amida.test.init;
 
 import com.amida.test.block.Tokyo_Tech_Block;
+import com.amida.test.block.Tokyo_Tech_Ore;
 import com.amida.test.main.Test;
 import com.google.common.base.Preconditions;
 
@@ -19,6 +20,7 @@ import net.minecraftforge.registries.ObjectHolder;
 public class TOKYO_TECH_BLOCK {
 
     public static final Tokyo_Tech_Block tokyo_tech_block = null;
+    public static final Tokyo_Tech_Ore tokyo_tech_ore = null;
 
     @Mod.EventBusSubscriber(modid = Test.MOD_ID, bus = Bus.MOD)
     public static class Register {
@@ -26,7 +28,8 @@ public class TOKYO_TECH_BLOCK {
         @SubscribeEvent
         public static void registerBlock(final RegistryEvent.Register<Block> event) {
             final Block[] blocks = {
-                    new Tokyo_Tech_Block()
+                    new Tokyo_Tech_Block(),
+                    new Tokyo_Tech_Ore()
             };
 
             event.getRegistry().registerAll(blocks);
@@ -35,7 +38,8 @@ public class TOKYO_TECH_BLOCK {
         @SubscribeEvent
         public static void registerBlockItems(final RegistryEvent.Register<Item> event) {
             final BlockItem[] items = {
-                    new BlockItem(tokyo_tech_block,new Properties().group(Test.tokyo_tech_tab))
+                    new BlockItem(tokyo_tech_block,new Properties().group(Test.tokyo_tech_tab)),
+                    new BlockItem(tokyo_tech_ore, new Properties().group(Test.tokyo_tech_tab))
             };
 
             for(final BlockItem item : items) {
