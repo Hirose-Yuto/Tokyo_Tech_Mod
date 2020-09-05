@@ -1,0 +1,11 @@
+{
+  "itemGroup.test" : "Test",
+  "item.test.tokyo_tech" : "東工大",
+  "item.test.tokyo_tech_pickaxe" : "東工大のつるはし",
+  "item.test.tokyo_tech_helmet_armor" : "東工大のヘルメット",
+  "item.test.tokyo_tech_chest_armor" : "東工大のチェストプレート",
+  "item.test.tokyo_tech_legs_armor" : "東工大のレギンス",
+  "item.test.tokyo_tech_feet_armor" : "東工大のブーツ",
+  "item.test.tokyo_tech_cookie" : "東工大のクッキー",
+  "block.test.tokyo_tech_block" : "東工大ブロック"
+}

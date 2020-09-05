@@ -1,0 +1,11 @@
+{
+  "itemGroup.test" : "Test",
+  "item.test.tokyo_tech" : "tokyo_tech",
+  "item.test.tokyo_tech_pickaxe" : "tokyo_tech_pickaxe",
+  "item.test.tokyo_tech_head_armor" : "tokyo_tech_helmet",
+  "item.test.tokyo_tech_chest_armor" : "tokyo_tech_chestplate",
+  "item.test.tokyo_tech_legs_armor" : "tokyo_tech_leggings",
+  "item.test.tokyo_tech_feet_armor" : "tokyo_tech_boots",
+  "item.test.tokyo_tech_cookie" : "tokyo_tech_cookie",
+  "block.test.tokyo_tech_block" : "tokyo_tech_block"
+}

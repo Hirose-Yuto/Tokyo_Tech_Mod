@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "test:tokyo_tech"
+    }
+  },
+  "result": {
+    "item": "test:tokyo_tech_legs_armor",
+    "count": 1
+  }
+}
